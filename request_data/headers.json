@@ -1,0 +1,14 @@
+{
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0",
+    "Accept": "*/*",
+    "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+    "Referer": "https://auto.ru/cars/all/?catalog_filter=mark%3DFORD%2Cmodel%3DFOCUS%2Cgeneration%3D7306596&catalog_filter=mark%3DFORD%2Cmodel%3DFOCUS%2Cgeneration%3D2306579&catalog_filter=mark%3DFORD%2Cmodel%3DFOCUS%2Cgeneration%3D3480337",
+    "x-client-app-version": "6a285e532e",
+    "x-page-request-id": "88e5e7592882679695f2e5197a17caa7",
+    "x-client-date": "1609660890086",
+    "x-csrf-token": "c230e8fe77024f3cbbf78395517d962a26e8246b09abb4b3",
+    "x-requested-with": "fetch",
+    "content-type": "application/json",
+    "Origin": "https://auto.ru",
+    "Connection": "keep-alive"
+}

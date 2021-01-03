@@ -66,7 +66,7 @@ body = '''{"category":"cars",
 
 
 class AvtoruSpider(Spider):
-    name = "avtoru"
+    name = "honda"
     pages = 1
     def start_requests(self):
 
@@ -79,7 +79,7 @@ class AvtoruSpider(Spider):
                       callback=self.parse_first)
 
     def parse_first(self, response):
-        filename = '/home/ivan/WORK/PYTHON/studying/scrapy_spiders/avtoru/responses/honda_cr-v/response_page_1.json'
+        filename = '/home/ivan/WORK/PYTHON/studying/scrapy_spiders/avtoru_scraping_and_analysis/responses/honda_cr-v/response_page_1.json'
         with open(filename, 'wb') as f:
             f.write(response.body)
             self.pages = json.loads(response.body)['pagination']['total_page_count']
@@ -96,6 +96,6 @@ class AvtoruSpider(Spider):
                           cb_kwargs=dict(page=page))
 
     def parse(self, response, page):
-        filename = f'/home/ivan/WORK/PYTHON/studying/scrapy_spiders/avtoru/responses/honda_cr-v/response_page_{page}.json'
+        filename = f'/home/ivan/WORK/PYTHON/studying/scrapy_spiders/avtoru_scraping_and_analysis/responses/honda_cr-v/response_page_{page}.json'
         with open(filename, 'wb') as f:
             f.write(response.body)

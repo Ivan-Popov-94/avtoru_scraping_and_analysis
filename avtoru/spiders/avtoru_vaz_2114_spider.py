@@ -65,7 +65,7 @@ body = '''{"catalog_filter":[{"mark":"VAZ",
 
 
 class AvtoruSpider(Spider):
-    name = "avtoru"
+    name = "vaz_2114"
     pages = 1
     def start_requests(self):
 

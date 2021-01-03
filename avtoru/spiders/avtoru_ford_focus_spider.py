@@ -70,7 +70,7 @@ body = '''{"displacement_from":2000,
 
 
 class AvtoruSpider(Spider):
-    name = "avtoru"
+    name = "ford_focus"
     pages = 1
     def start_requests(self):
 
